@@ -1,5 +1,6 @@
 variable "vpc_name" {
   type    = string
+  default = "vpc-terrafrom"
 }
 
 resource "aws_vpc" "minha_vpc" {
